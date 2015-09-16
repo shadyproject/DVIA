@@ -1847,7 +1847,7 @@
 				ORGANIZATIONNAME = HighAltitudeHacks.com;
 				TargetAttributes = {
 					6EFED89F1870848E00FEFCB1 = {
-						DevelopmentTeam = 4X3E7G4N3S;
+						DevelopmentTeam = X49T9R7SE6;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1862,7 +1862,7 @@
 					};
 					9FACC8051B0A7BFA00C54F02 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 4X3E7G4N3S;
+						DevelopmentTeam = X49T9R7SE6;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1874,6 +1874,7 @@
 					};
 					9FACC8101B0A7BFA00C54F02 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = X49T9R7SE6;
 					};
 				};
 			};
@@ -2295,7 +2296,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "a950df61-dbd8-4ec0-9ff1-d1683b370b10";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2330,7 +2331,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "a950df61-dbd8-4ec0-9ff1-d1683b370b10";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2343,8 +2344,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = DamnVulnerableIOSApp/DamnVulnerableIOSApp.entitlements;
-				CODE_SIGN_IDENTITY = "iOS Development: Prateek Gianchandani (9WJU7EAEE3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: Prateek Gianchandani (9WJU7EAEE3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Prateek/Documents/IOS,
@@ -2364,7 +2365,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "a950df61-dbd8-4ec0-9ff1-d1683b370b10";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2376,8 +2377,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = DamnVulnerableIOSApp/DamnVulnerableIOSApp.entitlements;
-				CODE_SIGN_IDENTITY = "iOS Development: Prateek Gianchandani (9WJU7EAEE3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: Prateek Gianchandani (9WJU7EAEE3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Prateek/Documents/IOS,
@@ -2397,7 +2398,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "a950df61-dbd8-4ec0-9ff1-d1683b370b10";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2425,6 +2426,7 @@
 				);
 				INFOPLIST_FILE = "DamnVulnerableIOSAppTests/DamnVulnerableIOSAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a950df61-dbd8-4ec0-9ff1-d1683b370b10";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2449,6 +2451,7 @@
 				GCC_PREFIX_HEADER = "DamnVulnerableIOSApp/DamnVulnerableIOSApp-Prefix.pch";
 				INFOPLIST_FILE = "DamnVulnerableIOSAppTests/DamnVulnerableIOSAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a950df61-dbd8-4ec0-9ff1-d1683b370b10";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2474,7 +2477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "56ec55be-cb8c-401c-99db-58d7d61b7d26";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -2495,7 +2498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "56ec55be-cb8c-401c-99db-58d7d61b7d26";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -2505,6 +2508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2518,6 +2522,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "879bfc61-43b1-4892-b0bd-2ec041d8bde4";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -2529,6 +2534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2538,6 +2544,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "879bfc61-43b1-4892-b0bd-2ec041d8bde4";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";

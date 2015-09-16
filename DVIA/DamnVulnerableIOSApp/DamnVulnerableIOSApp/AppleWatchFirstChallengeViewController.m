@@ -63,7 +63,7 @@
     bankUser[@"cvvCode"] = self.cvvCode;
     
     [bankUser saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-        NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dvia.AppleWatch.shared"];
+        NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.shadyproject.dvia.AppleWatch.shared"];
         [defaults setObject:self.cardNumber forKey:@"cardNumber"];
         [defaults setObject:self.cvvCode forKey:@"cvvCode"];
         [defaults setObject:self.balance forKey:@"moneyBalance"];

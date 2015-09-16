@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.dvia.applewatch</string>
+		<string>group.shadyproject.dvia.applewatch</string>
 	</array>
 </dict>
 </plist>

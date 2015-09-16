@@ -41,7 +41,7 @@
 }
 
 - (void)updateData {
-    NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dvia.AppleWatch.shared"];
+    NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.shadyproject.dvia.AppleWatch.shared"];
     NSString *cardNumber = [defaults objectForKey:@"cardNumber"] ?: @"undefined";
     NSNumber *balance = [defaults objectForKey:@"moneyBalance"] ?: @0;
     [self.cardNumberLabel setText:cardNumber];
